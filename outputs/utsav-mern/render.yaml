@@ -8,7 +8,9 @@ services:
     startCommand: npm start
     envVars:
       - key: CLIENT_ORIGIN
-        value: "http://127.0.0.1:5175"
+        value: "https://restaurant-website-1-se3v.onrender.com"
+      - key: MONGO_URI
+        scope: secret
   - type: static_site
     name: utsav-client
     env: static

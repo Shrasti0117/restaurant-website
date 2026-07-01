@@ -39,6 +39,10 @@ Frontend: `http://127.0.0.1:5173`
 
 Backend API: `http://127.0.0.1:5000/api/site`
 
+## Live Demo
+
+https://restaurant-website-1-se3v.onrender.com
+
 ## Production Build
 
 ```bash
